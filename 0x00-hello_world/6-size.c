@@ -4,6 +4,11 @@
  * Return: 0
  */
 int main(void)
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
 {
 	printf("size of a char: %d byte(s)\n", sizeof(char));
 	printf("size of an int: %d byte(s)\n", sizeof(int));
